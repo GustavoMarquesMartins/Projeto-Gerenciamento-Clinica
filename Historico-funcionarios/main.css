@@ -1,0 +1,56 @@
+.lista-historico {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid var(--cor-borda-preta);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 10rem;
+}
+
+.historico-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 2px solid var(--cor-borda-preta);
+    padding-bottom: 1rem;
+}
+
+.historico-ver {
+    background-image: url(../assets/ver.svg);
+    background-position: center;
+    width: 50px;
+    padding: 1.7rem;
+    background-repeat: no-repeat;
+    background-color: rgb(24, 219, 138);
+    border-radius: 1rem;
+}
+
+.historico-editar {
+    background-image: url(../assets/editar.svg);
+    background-position: center;
+    width: 50px;
+    padding: 1.7rem;
+    background-repeat: no-repeat;
+    background-color: rgb(20, 71, 212);
+    border-radius: 1rem;
+}
+
+.historico-delete {
+    background-image: url(../assets/deletar.svg);
+    background-position: center;
+    width: 50px;
+    padding: 1.7rem;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 0, 0);
+    border-radius: 1rem;
+}
+
+.historico-titulo {
+    font-size: 25px;
+}
+
+.historico-paragrafo {
+    font-size: 20px;
+}
+

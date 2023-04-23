@@ -1,0 +1,75 @@
+.navegacao-main {
+    width: 220px;
+    height: 100%;
+    background-color: var(--cor-cinza);
+    position: fixed;
+    left: 0;
+}
+
+.lista-main-consulta {
+    display: none;
+}
+
+.lista-main-historico {
+    display: none;
+}
+
+.navegacao-main img {
+    width: 100px;
+    border-radius: 8rem;
+    padding-bottom: 1rem;
+    align-self: center;
+}
+
+.navegacao-main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-funcoes {
+    border: 2px solid var(--cor-botao-formulario);
+    font-weight: 700;
+    background-image: url("../assets/direita-seta.svg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 0.4rem;
+    background-color: var(--cor-branco);
+}
+
+
+.menu-barra-baixo {
+    display: none;
+}
+
+.label-barra {
+    width: 100%;
+}
+
+.menu-barra-baixo:checked~.lista-main-consulta {
+    display: block;
+}
+
+.menu-barra__baixo-historico:checked~.lista-main-historico {
+    display: block;
+}
+
+.menu-barra-baixo-historico {
+    display: none;
+}
+
+.menu-barra-baixo-historico:checked~.lista-main-historico {
+    display: block;
+}
+
+.main-lista-item {
+    border: 2px solid var(--cor-botao-formulario);
+    font-weight: 300;
+    padding: 0.4rem;
+    background-color: var(--cor-branco);
+}
+
+.main-lista-item a {
+    text-decoration: none;
+    color: black;
+}

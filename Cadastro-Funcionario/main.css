@@ -1,0 +1,28 @@
+.conteudo__formulario {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 3rem;
+}
+
+.formulario__barra {
+    width: 250px;
+    padding: 0.3rem;
+    margin-left: 12px;
+    border-radius: 0.2rem;
+}
+
+.botao__formulario {
+    width: 250px;
+    padding: 0.3rem;
+    background-color: var(--cor-botao-formulario);
+    border-radius: 0.2rem;
+}
+
+.botao__formulario:hover {
+    background-color: var(--cor-botao-formulario-hover);
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+}

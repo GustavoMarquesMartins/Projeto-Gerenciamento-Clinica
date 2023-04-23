@@ -1,0 +1,33 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    column-gap: 1rem;
+}
+
+.cabecalho__logo {
+    width: 100px;
+    border-radius: 3rem;
+}
+
+.cabecalho__cargo {
+    color: var(--cor-nome-cargo);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.cabecalho__voltar {
+    width: 50px;
+    background-color: var(--cor-botao-formulario);
+    border-radius: 4rem;
+    background-image: url("../assets/voltar.svg");
+    background-position: center;
+    padding: 1.5rem;
+    position: fixed;
+    right: 0;
+    margin-right: 1rem;
+}
+
+.cabecalho__logo:hover {
+    width: 110px;
+}

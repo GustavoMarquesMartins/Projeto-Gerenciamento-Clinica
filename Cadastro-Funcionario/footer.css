@@ -1,0 +1,23 @@
+.rodape {
+    border-top: 2px solid var(--cor-borda-destque);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape__lista {
+    background-color: var(--cor-fundo-rodape);
+    display: flex;
+    justify-content: end;
+}
+
+.lista__item {
+    padding: 1rem 2rem;
+
+}
+
+.lista__link{
+    color: var(--cor-destaque-palavras);
+    text-decoration: none;
+}
+

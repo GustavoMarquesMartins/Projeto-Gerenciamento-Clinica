@@ -1,0 +1,43 @@
+@import url("./reset.css");
+@import url("./Login/main.css");
+@import url("./Cadastro-Funcionario/main.css");
+@import url("./Cadastro-Funcionario/header.css");
+@import url("./Cadastro-Funcionario/main.css");
+@import url("./Cadastro-Funcionario/footer.css");
+@import url("./Cadastro-Usuario/header.css");
+@import url("./Cadastro-Usuario/main.css");
+@import url("./Cadastro-Usuario/footer.css");
+@import url("./Cadastro-Especialidades/main.css");
+@import url("./Cadastro-Médico/main.css");
+@import url("./Ver-agendamento-paciente/main.css");
+@import url("./Historico-funcionarios/main.css");
+@import url("./Main/main.css");
+
+:root {
+    --cor-cinza: rgb(233, 231, 231);
+    --cor-branco: rgb(255, 255, 255);
+    --cor-botao-formulario: rgb(88, 185, 230);
+    --font-principal: font-family: 'Roboto', sans-serif;
+    --cor-cargo: rgb(88, 185, 230);
+    --cor-esqueceu-senha: rgb(88, 185, 230);
+    --bordas-container: rgb(201, 197, 197);
+    --cor-placeholder: black;
+    --cor-botao-formulario-hover: rgb(0, 174, 255);
+    --cor-destaque-palavras: rgb(0, 174, 255);
+    --cor-nome-cargo: rgb(88, 185, 230);
+    --cor-fundo-rodape: rgb(219, 218, 218);
+    --cor-borda-destque: rgb(192, 192, 192);
+    --cor-borda-preta: black;
+    --botao-excluir: rgb(255, 0, 0);
+    --botao-editar: rgb(94, 201, 243);
+}
+
+* {
+    font-family: var(--font-principal);
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,52 @@
+.conteudo__ver {
+    border: 2px solid var(--cor-borda-preta);
+    border-radius: 1rem;
+    margin:0 2rem 2rem 2rem;
+}
+
+
+.lista__dados-ver {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.lista__item-ver {
+    border-bottom: 2px solid var(--cor-borda-preta);
+    padding-bottom: 1rem;
+}
+
+.lista__titulo-ver {
+    font-weight: bold;
+    width: 700;
+    font-size: 20px;
+}
+
+.lista__paragrafo-ver {
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.conteudo__funcionabilidades-ver {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.botao__funcionabilidade-ver {
+    padding: 0.8rem;
+    width: 150px;
+    border-radius: 0.3rem;
+
+}
+
+.ver-excluir {
+    background-color: var(--botao-excluir);
+}
+
+.ver-editar {
+    background-color: var(--botao-editar);
+}

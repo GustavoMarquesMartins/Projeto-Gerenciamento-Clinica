@@ -1,0 +1,69 @@
+.conyeudo-login {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container__principal {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-cinza);
+    width: 300px;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 2px solid var(--bordas-container);
+}
+
+.container__principal img {
+    width: 150px;
+}
+
+.container__principal__formulario {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 250px;
+}
+
+.formulario__botao {
+    font-size: 1rem;
+    background-color: var(--cor-botao-formulario);
+    border-radius: 0.5rem;
+}
+
+#barra {
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.esqueceu__senha {
+    margin-top: 1rem;
+    color: var(--cor-esqueceu-senha);
+    font-size: 1rem;
+}
+
+#barra::placeholder {
+    color: var(--cor-placeholder);
+    padding-left: 1rem;
+}
+
+.container__principal:hover {
+    width: 310px;
+    height: 360px;
+}
+
+.formulario__botao:hover {
+    background-color: var(--cor-botao-formulario-hover);
+    border-color: var(--bordas-container);
+    padding: 0.2rem;
+}
+
+.esqueceu__senha:hover {
+    color: var(--cor-destaque-palavras);
+}
+
+#barra:hover{
+padding: 0.2rem;
+}
